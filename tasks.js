@@ -130,7 +130,7 @@ function numSeq(arr) {
 
 
 
-// функция для форматирования маски из 2-х матриц
+// функция для формирования маски из 2-х матриц
 
 let matShape = (matrix) => [matrix.length, matrix[0]?.length];
 let compareArr = (matrix1, matrix2) => matrix1.length === matrix2.length && matrix1.every((value, index) => value === matrix2[index]);
