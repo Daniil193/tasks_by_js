@@ -18,24 +18,32 @@ describe("pow", function() {
 
     it("[1,2, [3,4, [5,6, [7,8, [9,10]]]]] --> [1,2,3,4,5,6,7,8,9,10]", function() {
 
-      let flatArrInput1 = [1,2, [3,4, [5,6, [7,8, [9,10]]]]];
-      let res1 = [1,2,3,4,5,6,7,8,9,10];
+      const flatArrInput1 = [1,2, [3,4, [5,6, [7,8, [9,10]]]]];
+      const res1 = [1,2,3,4,5,6,7,8,9,10];
 
       assert.deepEqual(flatArr(flatArrInput1), res1);
     });
   
     it("[[[[[1,2,3]]]]] --> [1,2,3]", function() {
 
-      let flatArrInput2 = [[[[[1,2,3]]]]];
-      let res2 = [1,2,3];
+      const flatArrInput2 = [[[[[1,2,3]]]]];
+      const res2 = [1,2,3];
 
       assert.deepEqual(flatArr(flatArrInput2), res2);
     });
 
     it("[[[[[1,2,3]]], 4]] --> [1,2,3,4]", function() {
 
-      let flatArrInput3 = [[[[[1,2,3]]], 4]];
-      let res3 = [1,2,3,4];
+      const flatArrInput3 = [[[[[1,2,3]]], 4]];
+      const res3 = [1,2,3,4];
+
+        assert.deepEqual(flatArr(flatArrInput3), res3);
+      });
+
+    it("[[[[[1,2,true]]], '']] --> [1,2,true,'']", function() {
+
+      const flatArrInput3 = [[[[[1,2,true]]], ""]];
+      const res3 = [1,2,true,""];
 
         assert.deepEqual(flatArr(flatArrInput3), res3);
       });
@@ -65,12 +73,12 @@ describe("pow", function() {
   describe("numSeq", function() {
 
     it("test 1", function() {
-      let numSeqInput1 = [-6, -3, -2, -1, 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20]
+      const numSeqInput1 = [-6, -3, -2, -1, 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20]
       assert.equal(numSeq(numSeqInput1), "-6,-3-5,7-11,14,15,17-20");
     });
   
     it("test 2", function() {
-      let numSeqInput2 = [-3, -2, -1, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 19, 20]
+      const numSeqInput2 = [-3, -2, -1, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 19, 20]
       assert.equal(numSeq(numSeqInput2), "-3--1,1-5,7-11,14-20");
     });
   });
@@ -85,7 +93,7 @@ describe("pow", function() {
       const matrix_3_3 = [[1, 2, 3],
                           [4, 5, 6],
                           [7, 8, 9]]
-      let res1 = [false,true,true,true,true];
+      const res1 = [false,true,true,true,true];
       assert.deepEqual(maskMatrix(matrix, matrix_3_3), res1);
     });
   
@@ -96,7 +104,7 @@ describe("pow", function() {
       const matrix_3_3 = [[1, 2, 3],
                           [4, 5, 6],
                           [7, 8, 9]]
-      let res2 = [false,true,true,true,true,true,true,false];                    
+      const res2 = [false,true,true,true,true,true,true,false];                    
       assert.deepEqual(maskMatrix(matrix, matrix_3_3), res2);
     });
   });
