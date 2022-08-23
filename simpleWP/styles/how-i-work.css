@@ -1,0 +1,20 @@
+.how-i-work {
+    position: relative;
+    background-color: rgb(251, 216, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.how_i_work_video {
+    max-width: 100%;
+    height: auto;
+  }
+
+.desc_text {
+    padding-bottom: 1em;
+    max-width: 30em;
+}

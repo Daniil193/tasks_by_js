@@ -1,0 +1,39 @@
+.site-header {
+    position: relative;
+    background-color: rgb(251, 216, 173);
+}
+
+.site-header__sh-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-header__sh-wrapper a {
+    text-decoration: none;
+}
+
+.sh-wrapper__logo {
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 675px) {
+    .sh-wrapper__nav {
+        display: none;
+    }
+    .site-header__sh-wrapper {
+        justify-content: flex-start;
+    }
+}
+
+.nav__list {
+    list-style-type: none;
+}
+
+.nav__item {
+    display: inline-block;
+    font-size: 20px;
+    padding-inline: 15px;
+}
