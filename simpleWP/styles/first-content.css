@@ -13,9 +13,10 @@
     flex-wrap: wrap;
 }
 
-.fc-wrapper__image  img {
-    max-width: 37.5em;
+.fc-wrapper__image img {
     max-height: 25em;
+    max-width: 37.5em;
+
 }
 
 .body__text {
@@ -36,5 +37,15 @@
 @media only screen and (max-width: 1126px) {
     .fc-wrapper__body {
         text-align: center;
+    }
+
+    .fc-wrapper__image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fc-wrapper__image img {
+        height: 90%;
+        width: 90%;
     }
 }

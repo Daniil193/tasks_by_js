@@ -67,7 +67,6 @@
     border-radius: 0.25em;
 }
 
-/* MOZILLA FIREFOX */
 .p-bar-item::-moz-progress-bar {
     background-color: rgb(199, 199, 199);
     background:rgb(67, 67, 217);
@@ -98,7 +97,22 @@
 }
 
 @media only screen and (max-width: 628px) {
+    .portfolio__my-skills {
+        max-height: 90%;
+        max-width: 90%;
+    }
+
     .my-skills__header {
         text-align: center;
+    }
+
+    .portfolio_picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_picture img {
+        height: 90%;
+        width: 90%;
     }
 }
