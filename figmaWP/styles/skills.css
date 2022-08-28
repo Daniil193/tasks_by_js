@@ -1,0 +1,65 @@
+
+
+.skills {
+    position: absolute;
+    width: 1150px;
+    height: 450px;
+    left: 386px;
+    top: 1411px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.skills__block {
+    width: 445px;
+    height: 257px;
+    left: 386px;
+    top: 1513px;
+}
+
+.item__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 8px;
+}
+
+.item__bar {
+    width: 445px;
+    height: 4px;
+    background: #C4C4C4;
+}
+
+.inner-bar {
+    width: 349.36px;
+    height: 4px;
+    background: #34547A;
+    transform: rotate(-0.06deg);
+}
+
+.list__item {
+    margin-bottom: 20px;
+}
+
+.block__header h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.skills__photo {
+    width: 555px;
+    height: 450px;
+    background-image: url("../images/shia-labeouf-image.png");
+    background-color: #C4C4C4;
+    background-size: cover;
+
+}

@@ -1,0 +1,53 @@
+
+.projects {
+    position: absolute;
+    width: 1920px;
+    height: 960px;
+    left: 0px;
+    top: 2994px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__item.stiks {
+    width: 480px;
+    height: 480px;
+    background-image: url("../images/sticks-image.png");
+    background-color: #C4C4C4;
+    background-size: cover;  
+}
+
+.projects__item.desctop {
+    width: 480px;
+    height: 480px;
+    background-image: url("../images/desctop-image.png");
+    background-color: #C4C4C4;
+    background-size: cover;  
+}
+
+.projects__item img {
+    opacity: 0;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(41, 71, 112);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.overlay:hover {
+    opacity: 0.8;
+}
+
+.projects__item:hover img {
+    opacity: 1;
+}
+
+

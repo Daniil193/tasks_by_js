@@ -1,0 +1,38 @@
+.about-me {
+    position: absolute;
+    width: 540px;
+    height: 147px;
+    left: 690px;
+    top: 812px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me__header h2 {
+    width: 403px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin: 0%;
+
+}
+
+
+.about-me__text p {
+    width: 540px;
+    height: 67px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}

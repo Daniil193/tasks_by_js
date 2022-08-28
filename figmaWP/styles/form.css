@@ -1,0 +1,104 @@
+
+.form {
+    position: absolute;
+    width: 1920px;
+    height: 762px;
+    left: 0px;
+    top: 3982px;
+    background: #EEEFF1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form__title {
+    width: 540px;
+    height: 147px;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title__header h2 {
+    width: 406px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.title__tex {
+    width: 540px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+.form__block {
+    width: 540px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block__user-data {
+    height: 50px;
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-data__item {
+    width: 255px;
+    height: 50px;
+}
+
+.message__item {
+    width: 540px;
+    height: 175px;
+    padding-top: 10px;
+}
+
+.form__block input[type=text], textarea {
+    padding: 0%;
+    text-indent: 10px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+
+.form__button {
+    width: 190px;
+    height: 55px;
+    padding: 0%;
+    border: none;
+    cursor:pointer;
+    background: #34547A;
+}
+
+.form__button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-decoration: none;
+}

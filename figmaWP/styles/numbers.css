@@ -1,0 +1,52 @@
+
+
+.numbers {
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+    background: #34547A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers__item {
+    width: 141px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 25px 0px 25px;
+}
+
+.text__numer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0%;
+}
+
+.text__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0%;
+}
+
+.item__text {
+    width: 71px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+

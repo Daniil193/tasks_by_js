@@ -1,0 +1,136 @@
+
+body {
+    position: relative;
+    width: 1920px;
+    /* height: 4895px; */
+    background: #F9F9F9;
+}
+
+.first-screen {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: -7px;
+    background: #EEEFF1
+}
+
+.first-screen__header {
+    position: absolute;
+    height: 60px;
+    width: 1105px;
+    left: 402px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__logo {
+    width: 96px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo h1 {
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+}
+
+.header__menu {
+    width: 611px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+    height: 16px;
+}
+
+.main {
+    height: 12px;
+    font-weight: 500;
+    color: #34547A;
+}
+
+.first-screen__content {
+    position: absolute;
+    width: 1028px;
+    height: 297px;
+    left: 487px;
+    top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__desc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.content__title h1 {
+    width: 541px;
+    height: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin: 0%;
+}
+
+.content__text p {
+    width: 540px;
+    height: 67px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 0%;
+}
+
+.content__button {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    cursor:pointer;
+    padding: 0%;
+    border: none;
+}
+
+.content__button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
