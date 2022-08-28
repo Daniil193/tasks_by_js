@@ -7,7 +7,7 @@
     top: 2994px;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .projects__item.stiks {
@@ -51,3 +51,35 @@
 }
 
 
+@media only screen and (max-width: 375px) {
+
+    .projects {
+        width: 375px;
+        height: 789px;
+        left: 0px;
+        top: 3024px;
+        padding-top: 40px;
+        align-content: flex-start;
+    }
+
+    .item-1 {order: 1;}
+    .item-2 {order: 1;}
+    .item-5 {order: 2;}
+    .item-6 {order: 2;}
+
+    .projects__item.stiks {
+        width: 187.5px;
+        height: 187px;
+    }
+
+    .projects__item.desctop {
+        width: 187.5px;
+        height: 187px;
+    }
+
+    .projects__item img {
+        width: 50px;
+        height: 29px;
+    }
+
+}

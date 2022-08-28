@@ -67,3 +67,45 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media only screen and (max-width: 375px) {
+    .video {
+        position: absolute;
+        width: 375px;
+        height: 599px;
+        left: 0px;
+        top: 2425px;
+        justify-content: space-evenly;
+    }
+
+    .video__title {
+        width: 375px;
+        height: 170px;
+        margin-bottom: 0px;
+    }
+
+    .title__header {
+        width: 220px;
+        height: 38px;
+    }
+
+    .title__text {
+        width: 323px;
+        height: 98px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .video__content {
+        width: 339px;
+        height: 185px;
+    }
+
+    .video__content img {
+        width: 75px;
+        height: 75px;
+    }
+
+}

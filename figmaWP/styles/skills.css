@@ -63,3 +63,54 @@
     background-size: cover;
 
 }
+
+
+
+@media only screen and (max-width: 375px) {
+    .skills {
+        position: absolute;
+        width: 375px;
+        height: 815px;
+        left: 0px;
+        top: 1610px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .skills__block {
+        width: 339px;
+        height: 257px;
+        left: 0px;
+        top: 2065px;
+    }
+
+    .block__header h2 {
+        width: 189;
+        text-align: center;
+    }
+
+    .item__name {
+        width: 128;
+        height: 15px;
+        margin-bottom: 15px;
+    }
+
+    .item__bar {
+        width: 339px;
+        height: 4px;
+    }
+
+    .inner-bar {
+        width: 266px;
+        height: 4px;
+    }
+
+    .skills__photo {
+        width: 339px;
+        height: 275px;
+        background-image: url("../images/shia-labeouf-image.png");
+        background-color: #C4C4C4;
+        background-size: cover;
+}
+}

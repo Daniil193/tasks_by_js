@@ -24,7 +24,6 @@
 
 }
 
-
 .about-me__text p {
     width: 540px;
     height: 67px;
@@ -35,4 +34,27 @@
     line-height: 26px;
     text-align: center;
     color: #727272;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .about-me {
+        width: 375px;
+        height: 351px;
+        left: 0px;
+        top: 782px;
+        justify-content: space-evenly;
+    }
+
+    .about-me__header h2 {
+        width: 126px;
+        height: 38px;
+    }
+
+    .about-me__text p {
+        width: 323px;
+        height: 98px;
+        line-height: 120%;
+        margin: 0%;
+    }
 }

@@ -102,3 +102,15 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 375px) {
+    .form {
+        position: absolute;
+        width: 375px;
+        height: 830px;
+        left: 0px;
+        top: 3852px;
+    }
+    
+}
