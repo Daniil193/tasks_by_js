@@ -173,6 +173,7 @@ body {
         font-size: 36px;
         line-height: 100%;
         text-align: center;
+        padding-bottom: 10px;
     }
 
     .content__text p {
@@ -180,6 +181,7 @@ body {
         height: 98px;
         line-height: 120%;
         text-align: center;
+        padding-bottom: 20px;
     }
  
     .content__desc {

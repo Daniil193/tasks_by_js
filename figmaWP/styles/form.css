@@ -42,8 +42,6 @@
     color: #727272;
 }
 
-
-
 .form__block {
     width: 540px;
     height: 260px;
@@ -112,5 +110,50 @@
         left: 0px;
         top: 3852px;
     }
-    
+
+    .form__title {
+        width: 322px;
+        height: 160px;
+    }
+
+    .title__header {
+        width: 260px;
+        height: 38px;
+        text-align: center;
+    }
+
+    .title__header h2 {
+        margin: 0%;
+    }
+
+    .title__tex {
+        width: 323px;
+        height: 98px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .form__block {
+        width: 342px;
+        height: 330px;
+    }
+
+    .block__user-data {
+        height: 120px;
+        width: 342px;
+    }
+
+    .user-data__item {
+        width: 342px;
+    }
+
+    .block__user-data {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .message__item {
+        width: 342px;
+        height: 175px;
+    }
 }
